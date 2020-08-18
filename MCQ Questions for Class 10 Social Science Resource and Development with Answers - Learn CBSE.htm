@@ -1,0 +1,38 @@
+<html>
+<head>
+<script language=javascript>
+function score() {
+window.confirm("Are you sure you want to Submit your test?");
+}
+</script>
+</head>
+<body>
+Answer The Questions Correctly
+<div name=Q1 id=Q1 class=Q_class>
+<form action="/action_page.php">
+ <p> What is the Indian National Bird?
+ </p>
+  <input type="radio" id="Q1" name="Q1" value="Peacock">
+  <label for="Peacock">Peacock</label><br>
+  <input type="radio" id="Q1" name="Q1" value="Parrot">
+  <label for="Parrot">Parrot</label><br>
+  <input type="radio" id="Q1" name="Q1" value="Eagle">
+  <label for="Eagle">Eagle</label>
+</form>
+</div>
+<div name=Q2 id=Q2 class=Q_class>
+<form action="/action_page.php">
+ <p> What is the Indian National Animal?
+ </p>
+  <input type="radio" id="Q2" name="Q2" value="Lion">
+  <label for="Lion">Lion</label><br>
+  <input type="radio" id="Q2" name="Q2" value="Tiger">
+  <label for="Tiger">Tiger</label><br>
+  <input type="radio" id="Q2" name="Q2" value="Cheetah">
+  <label for="Cheetah">Cheetah</label>
+</form>
+</div>
+<input type=submit value=submit onClick=score()>
+</body>
+
+</html>
